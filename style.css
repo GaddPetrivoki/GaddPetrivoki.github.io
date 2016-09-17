@@ -1,8 +1,7 @@
 #github,#linkedin{
   width: 25%;
   height: 25%;
-     -webkit-filter: invert(1);
-   filter: invert(1);
+   
 }
 #github:hover,#linkedin:hover{
    opacity: 0.7;
