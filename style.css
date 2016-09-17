@@ -1,0 +1,27 @@
+#github,#linkedin{
+  width: 25%;
+  height: 25%;
+     -webkit-filter: invert(1);
+   filter: invert(1);
+}
+#github:hover,#linkedin:hover{
+   opacity: 0.7;
+}
+#github{
+  float:right;
+}
+#linkedin{
+  float: left;
+}
+
+#img-box{
+margin-top: 10%;
+  
+}
+body{
+  background-color: black;
+}
+h1{
+  color: White;
+ font-family: 'Lato', sans-serif;
+}
