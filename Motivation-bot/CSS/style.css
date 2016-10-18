@@ -1,0 +1,23 @@
+#motivation_box,#footer{
+
+margin-left:auto;
+margin-right:auto;
+width: 50%;
+}
+#img{
+	margin:auto;
+	display: block;
+	width: 50%;
+}
+#img-id{
+	text-align: center;
+}
+#btn{
+	
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 50%;
+	bottom: 10px;
+	position: fixed;
+	
+}

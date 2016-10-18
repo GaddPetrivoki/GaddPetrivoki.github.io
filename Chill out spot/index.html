@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>A-Frame Chill Spot</title>
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+<h1> SUP</h1>
+<a-scene>
+<!-- < a sky src=""> -->
+  <a-tetrahedron color="#6173F4" radius="5">
+	<a-animation attribute="position" dur="10000"repeat="indefinite" from="50 100 10" to="0 0 0"></a-animation>
+  </a-tetrahedron>
+  <a-tetrahedron color="#6173F4" radius="5">
+	<a-animation attribute="position" dur="10000"repeat="indefinite" from="-50 100 0" to="0 0 -10"></a-animation>
+  </a-tetrahedron>
+  <a-tetrahedron color="#6173F4" radius="5">
+	<a-animation attribute="position" dur="10000"repeat="indefinite" from="50 100 0" to="10 0 0"></a-animation>
+  </a-tetrahedron>    
+  <a-plane color="#6173F4" height="20" width="20" position="0 0 -100" src="img/SKY.jpg" >
+  
+  </a-plane>
+  <a-box color="#704700" width="2" height="3" depth="2" position="-0 2 -10" src="img/WOOD.jpg" >
+  </a-box>
+	<a-cylinder color="#6173F4" width="0.5" height="5" depth="0.5" scale="0.15 1 0.15" rotation="0 0 -18"position="-1.25 -2 -10" ></a-cylinder>
+	<a-cylinder color="#6173F4" width="0.5" height="5" depth="0.5" scale="0.15 1 0.15" rotation="0 0 18"position="1.25 -2 -10" ></a-cylinder>
+	<a-cylinder color="#6173F4" width="0.5" height="5" depth="0.5" scale="0.15 1 0.15" rotation="18 0 0"position="0 -2 -11" ></a-cylinder>
+  <a-cone color="#6173F4" position="-0 0.5 -10"></a-cone>
+  <a-cone color="#000000" position="-0 2 -9" rotation="90 0 0 " scale="0.5 1 0.5"></a-cone>
+    <a-cone color="#000000" position="-0 2 -11" rotation="-90 0 0 "></a-cone>
+    <a-camera position="0 1.8 0">
+    <a-cursor color="#2E3A87"></a-cursor>
+  </a-scene>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
